@@ -1,4 +1,31 @@
+@import 'reset.css';
 body {
-	padding: 0;
-	margin: 0;
+	background-color: #556677;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.canvas {
+	width: 500px;
+	height: 700px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 0 4px 10px rgba(10, 10, 10, 0.5);
+}
+
+.controls .controls_colors {
+	display: flex;
+	padding-top: 80px;
+	justify-content: space-around;
+	width: 100%;
+	min-width: 500px;
+}
+.controls_colors .controls_color {
+	width: 50px;
+	height: 50px;
+	box-shadow: 0 4px 10px rgba(10, 10, 10, 0.5);
+	border-radius: 50%;
+	cursor: pointer;
 }
